@@ -14,6 +14,7 @@ const connectDB = async () => {
     console.log('Connected to MongoDB');
   } catch (err) {
     console.error('Connected to mLab DB', err);
+    process.exit(1);
   }
 };
 
