@@ -7,7 +7,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const Contact = require('../models/Contact');
-const User = require('../models/User');
 
 // @route GET api/contacts
 // @desc Get all users contacts
